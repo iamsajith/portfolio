@@ -9,10 +9,31 @@
 .images{
  display: flex;
  justify-content: space-around;
- border: 1px double black;
+ align-items: center;
 
 }
+
 img{
  height: auto;
+ transition: 0.2s;
+}
+img:hover{
+ transform: scale(1.5);
+}
+
+.hide{
+ display: none;
+ padding: 10%;
+}
+
+.col{
+ text-align: center;
+ padding: 2%;
+}
+h3{
+ font-family:"Montserrat";
+ font-weight:bold;
+ text-align: center;
+ padding: 2%;
 }
 

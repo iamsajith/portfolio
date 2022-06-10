@@ -1,3 +1,9 @@
+h3,input,select,button{
+ font-family:"Montserrat";
+}
+h3{
+ font-weight: bold;
+}
 .contact{
  display:flex;
  justify-content: space-around;
@@ -17,7 +23,25 @@ input,select,textarea,button{
  background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
 
 }
-img{
- transform: rotate(-20deg);
+textarea{
+ resize: none;
 }
+img{
+ animation: mymove 1s;
+ position: relative;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+0%{ left: 0px; left: 100px;} 
+50%{ left: 100px; left: 0px;}
+100%{left: 0px; left: 100px;}
+}
+
+.cont {
+ background-color: #F3E6E8;
+ height: 100vh;
+}
+
+
 
